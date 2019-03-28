@@ -5,3 +5,5 @@ RUN apk --no-cache add curl wget perl make ca-certificates zlib openssl  \
     && curl -L https://cpanmin.us | perl - App::cpanminus                \
     && cpanm -n -q Carton App::cpm                                       \
     && rm -rf ~/.cpanm
+
+ENV PERL5LIB=/app/local/lib/perl5
