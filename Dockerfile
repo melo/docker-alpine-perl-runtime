@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.17
 
 RUN apk --no-cache add curl wget perl make ca-certificates zlib libressl \
                        zlib expat gnupg libxml2 libxml2-utils jq         \
