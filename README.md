@@ -7,7 +7,7 @@ This is a Docker image based on `alpine` that can be used to run Perl projects. 
 
 This includes:
 
-* [perl-5.26.1](https://metacpan.org/release/perl);
+* [perl-5.36.0](https://metacpan.org/release/perl);
 * [cpanm](https://metacpan.org/release/App-cpanminus);
 * [carton](https://metacpan.org/release/Carton).
 
